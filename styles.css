@@ -1,0 +1,105 @@
+:root {
+    --primary-color: #1d3658;
+    --secondary-color: #00FDFB;
+    --text-color: #687791;
+    --max-width: 300px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    font-family: 'Outfit', sans-serif;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background: var(--primary-color);
+    width: var(--max-width);
+    color: #fff;
+    margin: 40px auto;
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+
+#container .box {
+    width: 100%;
+}
+
+#container .box {
+    border-radius: 10px;
+}
+
+#container .box a:hover {
+    cursor: pointer;
+    color: var(--secondary-color);
+}
+
+#container h1 {
+    font-size: 18px;
+    padding: 1rem 0;
+}
+
+#container h1:hover {
+    cursor: pointer;
+    color: var(--secondary-color);
+}
+
+#container p {
+    font-size: 14px;
+    color: var(--text-color);
+    padding: 0 0 .5rem;
+    line-height: 1.6;
+}
+
+hr {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#container .tracker, 
+#container .person {
+    display: flex;
+}
+
+#container .tracker p {
+    padding: 0 0 1rem;
+}
+
+#container .tracker .eth {
+    margin: 0 95px 0 0;
+    color: var(--secondary-color);
+}
+
+#container .person img {
+    display: inline;
+    width: 15%;
+    border: white 1px solid;
+    border-radius: 100%;
+}
+#container .person p {
+    display: inline;
+    margin: 6px 0 0 15px;
+}
+
+#container .person {
+    align-items: center;
+}
+
+#container .person a {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+#container .person a:hover {
+    text-decoration: none;
+    color: var(--secondary-color);
+    cursor: pointer;
+}
